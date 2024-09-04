@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "809292394856",
+    "project_id": "fir-b5688",
+    "storage_bucket": "fir-b5688.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809292394856:android:161c78d6e975f0e4cea6dd",
+        "android_client_info": {
+          "package_name": "com.example.new_med_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYZDH1gftHJ5ErzivEjJzgToOEJbNaMa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
