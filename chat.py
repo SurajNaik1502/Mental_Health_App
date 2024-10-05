@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 from pinecone import Pinecone
 from langchain.llms import CTransformers
 from langchain.chains import RetrievalQA
-
+from dotenv import load_dotenv
 
 
 app = Flask(__name__)
@@ -23,9 +23,12 @@ def download_hugging_face_embeddings():
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     return embeddings
 
+# Get Pinecone API keys from environment variables
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+PINECONE_API_ENV = os.getenv("PINECONE_API_ENV")
+
 index_name="medical-chatbot"
-PINECONE_API_KEY = "75958ab5-04b8-452b-b085-4101fd324846"
-PINECONE_API_ENV = "gcp-starter"
+
 pc = Pinecone(api_key=PINECONE_API_KEY)
 embeddings = download_hugging_face_embeddings()
 os.environ['PINECONE_API_KEY']= PINECONE_API_KEY
