@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/0ffe7178-4dd7-44f9-bae2-e8d95a4875ea" alt="Alt Text" width="200" height="300">
+<img src="https://github.com/user-attachments/assets/0ffe7178-4dd7-44f9-bae2-e8d95a4875ea" alt="Alt Text" width="300" height="500">
 
 Chatbot 👆🏽
 
